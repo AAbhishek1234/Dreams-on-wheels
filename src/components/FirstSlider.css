@@ -1,0 +1,11 @@
+.custom-img {
+    height: 550px; 
+    object-fit: cover; 
+    width: 100%; 
+}
+
+@media (max-width: 768px) {
+    .custom-img {
+        height: 300px; 
+    }
+}
