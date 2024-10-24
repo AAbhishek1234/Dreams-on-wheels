@@ -1,11 +1,15 @@
-.custom-img {
-    height: 550px; 
-    object-fit: cover; 
-    width: 100%; 
+.carousel-item {
+    height: 300px; /* Set a height for mobile view */
 }
 
-@media (max-width: 768px) {
-    .custom-img {
-        height: 300px; 
+.custom-img {
+    width: 100%;
+    height: 100%; /* Ensures the image fills the carousel item */
+    object-fit: cover; /* Cover the area without distortion */
+}
+
+@media (min-width: 768px) {
+    .carousel-item {
+        height: 600px; /* Larger height for desktop view */
     }
 }
