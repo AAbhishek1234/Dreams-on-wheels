@@ -63,10 +63,6 @@ const CarouselComponent = () => {
 export default CarouselComponent;
 
 
-
-
-
-
 // import React from 'react';
 // import { Container, Row, Col, Carousel, Card } from 'react-bootstrap';
 // import { useNavigate } from 'react-router-dom';
@@ -89,8 +85,8 @@ export default CarouselComponent;
 
 //   return (
 //     <>
-//       <Container className="my-4">
-//         <h2 className="mb-4 text-start">Cars from Mahindra</h2>
+//       <Container>
+//         <h2 className="my-4">Cars from Mahindra</h2>
 //       </Container>
 //       <Container className="mt-5">
 //         <Carousel indicators controls interval={3000}>
@@ -98,10 +94,10 @@ export default CarouselComponent;
 //             <Carousel.Item key={slideIndex}>
 //               <Row className="justify-content-center">
 //                 {carData.slice(slideIndex * 3, slideIndex * 3 + 3).map((car) => (
-//                   <Col key={car.name} md={4} className="mb-4">
+//                   <Col key={car.name} xs={12} sm={6} md={4} className="mb-4"> {/* Responsive column sizes */}
 //                     <Card
 //                       className="h-100"
-//                       onClick={() => handleCarClick(car.url)} // Use car.url here
+//                       onClick={() => handleCarClick(car.url)}
 //                       style={{ cursor: 'pointer' }}
 //                     >
 //                       <Card.Img
