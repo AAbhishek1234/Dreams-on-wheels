@@ -28,32 +28,66 @@
 
 
 
- .custom-img {
+ /* .custom-img {
+    width: 100%; 
+    height: 100vh; 
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .custom-img {
+        height: 60vh;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 480px) {
+    .custom-img {
+        height: 70vh; 
+        object-fit: cover; 
+    }
+}
+
+@media (max-width: 320px) {
+    .custom-img {
+        height: 75vh; 
+        object-fit: cover; 
+    }
+} */
+
+
+
+
+.custom-img {
     width: 100%; /* Full width of the parent container (Carousel) */
-    height: 100vh; /* Full height on large screens */
-    object-fit: cover; /* Ensure the image scales while maintaining its aspect ratio */
+    height: 100vh; /* Full viewport height on larger screens */
+    object-fit: cover; /* Cover the container */
+    object-position: center; /* Center the image within the container */
 }
 
 /* For tablets */
 @media (max-width: 768px) {
     .custom-img {
-        height: 60vh; /* Increase the height slightly for smaller devices */
+        height: 60vh;
         object-fit: cover;
+        object-position: center center; /* Ensure image is centered */
     }
 }
 
 /* For mobile phones */
 @media (max-width: 480px) {
     .custom-img {
-        height: 70vh; /* Increase height for mobile screens */
-        object-fit: cover; /* Keep covering without changing width */
+        height: 70vh;
+        object-fit: contain; /* Show entire image without cropping */
+        object-position: center center; /* Center the image */
     }
 }
 
 /* For extra small devices */
 @media (max-width: 320px) {
     .custom-img {
-        height: 75vh; /* Increase height further for very small screens */
-        object-fit: cover; /* Maintain the image coverage */
+        height: 75vh;
+        object-fit: contain; /* Avoid cropping the image */
+        object-position: center center;
     }
 }
