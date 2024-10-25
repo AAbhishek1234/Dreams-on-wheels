@@ -6,13 +6,20 @@
 
 @media (max-width: 768px) {
     .custom-img {
-        height: 30vh; /* Reduce height for smaller screens */
+        height: 50vh; /* Reduce height for smaller screens */
+    }
+}
+
+
+@media (max-width: 320px) {
+    .custom-img {
+        height: 30vh; /* For very small mobile screens */
     }
 }
 
 @media (max-width: 480px) {
     .custom-img {
-        height: 20vh; /* Further reduce height for mobile screens */
+        height: 50vh; /* Further reduce height for mobile screens */
     }
 }
 
