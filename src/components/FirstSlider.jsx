@@ -1,9 +1,10 @@
 import React from 'react';
-import { Carousel } from 'react-bootstrap';
+import { Carousel,Container } from 'react-bootstrap';
 import './FirstSlider.css'; // Import your custom CSS
 
 const ImageSlider = () => {
   return (
+    <>
     <Carousel>
       <Carousel.Item>
         <img
@@ -27,6 +28,10 @@ const ImageSlider = () => {
         />
       </Carousel.Item>
     </Carousel>
+    <Container>
+    <h1 className="text-center" style={{fontWeight:"bold"}}>Find Your Dream Cars</h1>
+    </Container>
+    </>
   );
 };
 

@@ -5,7 +5,7 @@ function Home() {
   return (
     <>
    <FirstSlider/>
- {/* <CarsMahindra/>     */}
+ <CarsMahindra/>    
     </>
   )
 }
