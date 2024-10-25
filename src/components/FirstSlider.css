@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
-    height: 100vh; /* Set a specific height for carousel items */
+    height: 100vh ; /* Set a specific height for carousel items */
     overflow: hidden; /* Ensure overflow is hidden */
   }
   

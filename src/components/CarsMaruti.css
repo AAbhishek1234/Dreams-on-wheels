@@ -1,70 +1,15 @@
-/* 
-
-.card-img-wrapper {
-    height: 250px; 
-    overflow: hidden;
-}
-
-.card-img-wrapper img {
-    object-fit: cover; 
-    width: 100%;
-    height: 100%;
-}
-
-.car-card {
-    height: 350px; 
-    margin-bottom: 20px;
-    margin: 0 !important;  
-    padding: 0 !important;
-    transition: transform 0.3s ease;
-}
-
-
-@media (max-width: 768px) {
-    .car-card {
-        height: 300px; 
-        margin-bottom: 10px; 
-    }
-
-    .card-img-wrapper {
-        height: 150px; 
-    }
-
-    .card-body {
-        padding: 8px; 
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    .car-card:hover {
-        transform: none; 
-    }
-}
-
-
-
-.compact-container {
-    margin-top: 10px !important; 
-    margin-bottom: 10 px !important;
-} */
-
-
-
-
-/* CarsMahindra.css */
-.mahindra-card-img-wrapper {
+.maruti-card-img-wrapper {
     height: 250px; /* Default height for desktop */
     overflow: hidden;
 }
 
-.mahindra-card-img-wrapper img {
+.maruti-card-img-wrapper img {
     object-fit: cover; /* Maintain aspect ratio without distortion */
     width: 100%;
     height: 100%;
 }
 
-.mahindra-car-card {
+.maruti-car-card {
     height: auto; /* Change to auto to allow content to dictate height */
     margin: 0 !important; /* No extra margin */
     padding: 0 !important; /* No padding */
@@ -73,23 +18,23 @@
 
 /* Mobile View Adjustments */
 @media (max-width: 768px) {
-    .mahindra-car-card {
+    .maruti-car-card {
         height: auto; /* Allow mobile card height to adjust based on content */
         margin-bottom: 10px; /* Adjust spacing */
     }
 
-    .mahindra-card-img-wrapper {
+    .maruti-card-img-wrapper {
         height: 150px; /* Consistent image height for mobile */
     }
 
-    .mahindra-card-body {
+    .maruti-card-body {
         padding: 8px; /* Adjust padding for compact layout */
         display: flex;
         flex-direction: column;
         justify-content: space-between; /* Ensure proper alignment */
     }
 
-    .mahindra-car-card:hover {
+    .maruti-car-card:hover {
         transform: none; /* Disable hover effect for mobile */
     }
 }
