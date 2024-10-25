@@ -219,12 +219,10 @@
 
 
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Carousel, Card, Container, Row, Col } from 'react-bootstrap';
-import { useNavigate } from 'react-router-dom'; // For navigation
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
-import './CarsMahindra.css'; // Add custom styles here
+import { useNavigate } from 'react-router-dom'; 
+import './CarsMahindra.css'; 
 
 const CarsMahindra = () => {
     const cars = [
@@ -234,16 +232,20 @@ const CarsMahindra = () => {
         { name: 'Maruti FRONX', price: '₹7.51 - 13.04 Lakh', image: 'Images/marzoo.jpg', url: '/fronx' },
         { name: 'Car 5', price: '₹X - Y Lakh', image: 'Images/xuv 3xo.webp', url: '/car5' },
         { name: 'Car 6', price: '₹X - Y Lakh', image: 'Images/scorpio.webp', url: '/car6' },
-        // { name: 'Car 7', price: '₹X - Y Lakh', image: 'Images/car7.webp', url: '/car7' },
-        // { name: 'Car 8', price: '₹X - Y Lakh', image: 'Images/car8.webp', url: '/car8' },
-        // { name: 'Car 9', price: '₹X - Y Lakh', image: 'Images/car9.webp', url: '/car9' },
-        // { name: 'Car 10', price: '₹X - Y Lakh', image: 'Images/car10.webp', url: '/car10' },
     ];
 
     const navigate = useNavigate();
-    const [slideIndex, setSlideIndex] = useState(0); // Track the current slide index
+    const [slideIndex, setSlideIndex] = useState(0); 
+    const [isMobile, setIsMobile] = useState(window.innerWidth <= 768); // Track if mobile view
 
-    // Helper function to group cars into slides
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth <= 768);
+        };
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
     const chunkArray = (arr, size) => {
         const chunkedArr = [];
         for (let i = 0; i < arr.length; i += size) {
@@ -252,10 +254,11 @@ const CarsMahindra = () => {
         return chunkedArr;
     };
 
-    const carChunks = chunkArray(cars, 3); // Initial grouping of cars into sets of 3
+    // Grouping logic: 3 items per slide for desktop, 1 per slide for mobile
+    const carChunks = chunkArray(cars, isMobile ? 1 : 3);
 
     const handleCardClick = (url) => {
-        navigate(url); // Navigate to the specified URL
+        navigate(url);
     };
 
     return (
@@ -267,13 +270,18 @@ const CarsMahindra = () => {
                 <Carousel
                     activeIndex={slideIndex}
                     onSelect={setSlideIndex}
-                    interval={3000} // Disable automatic cycling
+                    interval={3000} 
                 >
                     {carChunks.map((chunk, idx) => (
                         <Carousel.Item key={idx}>
                             <Row>
                                 {chunk.map((car, index) => (
-                                    <Col md={4} sm={12} key={index} className="d-flex justify-content-center">
+                                    <Col 
+                                        md={4} 
+                                        sm={12} 
+                                        key={index} 
+                                        className="d-flex justify-content-center"
+                                    >
                                         <Card 
                                             className="text-center car-card" 
                                             onClick={() => handleCardClick(car.url)} 
@@ -293,8 +301,6 @@ const CarsMahindra = () => {
                         </Carousel.Item>
                     ))}
                 </Carousel>
-                {/* Navigation Icons */}
-                
             </Container>
         </>
     );

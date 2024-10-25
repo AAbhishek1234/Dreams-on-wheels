@@ -1,23 +1,23 @@
 /* Ensure consistent card height and image size */
 .card-img-wrapper {
-    height: 250px; /* Set a fixed height for images */
-    overflow: hidden; /* Hide overflow for larger images */
+    height: 250px; /* Default height */
+    overflow: hidden;
 }
 
 .card-img-wrapper img {
-    object-fit: cover; /* Ensure the image covers the area without distorting */
+    object-fit: cover;
     width: 100%;
-    height: 100%; /* Set image to take the full height */
+    height: 100%;
 }
 
 .car-card {
-    height: 90%; /* Ensure all cards have equal height */
-    margin-bottom: 20px; /* Space between cards */
-    transition: transform 0.3s ease; /* Smooth transition on hover */
+    height: 90%;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
 }
 
 .car-card:hover {
-    transform: scale(1.05); /* Slightly enlarge on hover */
+    transform: scale(1.05);
 }
 
 .card-body {
@@ -27,45 +27,17 @@
     height: 20%;
 }
 
-/* Navigation icons */
-.carousel-nav-icon {
-    font-size: 24px; /* Icon size */
-    color: #007bff; /* Primary color for the icon */
-    transition: color 0.3s ease; /* Smooth color transition */
-}
-
-.carousel-nav-icon:hover {
-    color: #0056b3; /* Darker shade on hover */
-}
-
-/* Positioning navigation icons */
-.carousel-nav-container {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 15px; /* Space above icons */
-}
-
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .card-img-wrapper {
-        height: 180px; /* Adjust for smaller screens */
-    }
-}
-
-@media (max-width: 480px) {
-    .card-img-wrapper {
-        height: 150px; /* Adjust for mobile */
+        height: 150px;
     }
 
     .car-card {
-        margin-bottom: 10px; /* Adjust spacing for mobile */
+        margin-bottom: 10px;
     }
 
     .card-body {
-        padding: 5px; /* Reduce padding for mobile */
-    }
-
-    .carousel-nav-icon {
-        font-size: 20px; /* Smaller icon size on mobile */
+        padding: 5px;
     }
 }
