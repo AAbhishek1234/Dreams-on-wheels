@@ -270,7 +270,7 @@ const CarsMahindra = () => {
                 <Carousel
                     activeIndex={slideIndex}
                     onSelect={setSlideIndex}
-                    interval={3000} 
+                    interval={1000} 
                 >
                     {carChunks.map((chunk, idx) => (
                         <Carousel.Item key={idx}>
