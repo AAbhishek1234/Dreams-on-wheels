@@ -1,5 +1,21 @@
-.carousel-image {
-    height: 50vh; /* Adjust as needed for responsiveness */
-    object-fit: cover; /* Maintain aspect ratio */
+.carousel-item {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Set a specific height for carousel items */
+    overflow: hidden; /* Ensure overflow is hidden */
+  }
+  
+  .responsive-image {
+    width: 100%; /* Ensure image takes full width */
+    height: 100%; /* Ensure image takes full height */
+   /* Ensure entire image is visible */
+  }
+  
+  /* Adjust height for mobile */
+  @media (max-width: 576px) {
+    .carousel-item {
+        height:30vh; /* Adjust height for mobile */
+    }
   }
   

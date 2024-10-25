@@ -1,42 +1,33 @@
 import React from 'react';
-import { Carousel, Form, Button, FormControl } from 'react-bootstrap';
+import { Carousel } from 'react-bootstrap';
+import './FirstSlider.css'; // Import your custom CSS
 
 const ImageSlider = () => {
   return (
     <Carousel>
-      {/* Slide 1 */}
       <Carousel.Item>
-        <img style={{height:"32rem"}}
-          className="d-block w-100"
-          src="/Images/all.jpg"
+        <img
+          className="d-block w-100 responsive-image"
+          src="Images/all.jpg"
           alt="First slide"
         />
-        
       </Carousel.Item>
-
-      {/* Slide 2 */}
       <Carousel.Item>
-        <img style={{height:"32rem"}}
-          className="d-block w-100"
-          src="/Images/bmw.jpg"
+        <img
+          className="d-block w-100 responsive-image"
+          src="Images/grp1.webp"
           alt="Second slide"
         />
-      
       </Carousel.Item>
-
-      {/* Slide 3 */}
       <Carousel.Item>
-        <img style={{height:"32rem"}}
-          className="d-block w-100"
-          src="/Images/mercedies.webp"
+        <img
+          className="d-block w-100 responsive-image"
+          src="Images/bmw.jpg"
           alt="Third slide"
         />
-      
       </Carousel.Item>
     </Carousel>
   );
 };
 
 export default ImageSlider;
-
-
