@@ -46,7 +46,7 @@
 .card-img-wrapper {
     height: 250px; /* Default height for desktop */
     overflow: hidden;
-    border-radius: 8px; /* Slight rounding */
+    /* Slight rounding */
 }
 
 .card-img-wrapper img {
