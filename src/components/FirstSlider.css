@@ -1,27 +1,9 @@
 .custom-img {
     width: 100%; 
-    height: 100vh; 
+    height: 80vh; 
     object-fit: cover; 
 }
 
-@media (max-width: 768px) {
-    .custom-img {
-        height: 50vh; 
-    }
-}
-
-
-@media (max-width: 320px) {
-    .custom-img {
-        height: 30vh; 
-    }
-}
-
-@media (max-width: 480px) {
-    .custom-img {
-        height: 20vh; 
-    }
-}
  
 
 
