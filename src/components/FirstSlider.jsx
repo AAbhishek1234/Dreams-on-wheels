@@ -8,7 +8,7 @@ const ImageSlider = () => {
       <Carousel.Item>
         <img style={{height:"32rem"}}
           className="d-block w-100"
-          src="/Images/grp4.webp"
+          src="/Images/all.jpg"
           alt="First slide"
         />
         
@@ -18,7 +18,7 @@ const ImageSlider = () => {
       <Carousel.Item>
         <img style={{height:"32rem"}}
           className="d-block w-100"
-          src="/Images/grp2.jpeg"
+          src="/Images/bmw.jpg"
           alt="Second slide"
         />
       
@@ -28,7 +28,7 @@ const ImageSlider = () => {
       <Carousel.Item>
         <img style={{height:"32rem"}}
           className="d-block w-100"
-          src="/Images/grp3.png"
+          src="/Images/mercedies.webp"
           alt="Third slide"
         />
       
