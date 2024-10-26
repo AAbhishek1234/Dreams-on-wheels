@@ -75,9 +75,9 @@ import './CarsMaruti.css';
 
 const CarsMaruti = () => {
     const cars = [
-        { name: 'Fronx', price: '₹13.62 - 17.42 Lakh', image: 'Images/fronx.avif', url: '' },
-        { name: 'Jimmy', price: '₹6.13 - 10.15 Lakh', image: 'Images/jimmy.webp', url: '' },
-        { name: 'Celerio', price: '₹11.35 - 17.60 Lakh', image: 'Images/celerio.png', url: '' },
+        { name: 'Fronx', price: '₹13.62 - 17.42 Lakh', image: 'Images/fronx.avif', url: '/fronx' },
+        { name: 'Jimmy', price: '₹6.13 - 10.15 Lakh', image: 'Images/jimmy.webp', url: '/jimmy' },
+        { name: 'Celerio', price: '₹11.35 - 17.60 Lakh', image: 'Images/celerio.png', url: '/celerio' },
     ];
 
     const navigate = useNavigate();
@@ -116,10 +116,10 @@ const CarsMaruti = () => {
 
             {/* View All Button */}
             <Container fluid className="d-flex justify-content-center my-4">
-                <Button variant="primary" className="view-all-button" onClick={handleViewAllClick}>
-                    View All
-                </Button>
-            </Container>
+             <Button variant="primary" className="view-all-button" onClick={handleViewAllClick}>
+                                         View All
+                                          </Button>
+           </Container>
         </>
     );
 };
