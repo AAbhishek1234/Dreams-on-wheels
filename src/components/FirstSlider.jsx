@@ -30,7 +30,7 @@ const ImageSlider = () => {
       </Carousel>
       <Container>
         <h1 className="text-center" style={{ fontWeight: "bold",marginTop:"2rem" }}>
-          Find Your Dream Cars
+          Find Your Dream Car
         </h1>
       </Container>
     </>
