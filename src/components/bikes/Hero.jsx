@@ -5,7 +5,7 @@ import './Hero.css';
 
 const Hero = () => {
     const bikes = [
-        { name: ' Hero Xtream125', price: '₹13.62 - 17.42 Lakh', image: 'Images/xtream125.jpg', url: '/xtream125' },
+        { name: ' Hero Xtream125', price: '₹13.62 - 17.42 Lakh', image: 'Images/Xtream125.jpg', url: '/xtream125' },
         { name: 'splendor Xtech 2.0', price: '₹6.13 - 10.15 Lakh', image: 'Images/splendorXtec2.0.jpg', url: '/RoyalEnfield Gurella 450' },
         { name: 'Passion Pro', price: '₹11.35 - 17.60 Lakh', image: 'Images/passionpro.webp', url: '/New ClassicEnfield' },
     ];
