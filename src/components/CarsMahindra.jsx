@@ -132,7 +132,7 @@ const navigate = useNavigate();
             {/* View All Button */}
             <Container fluid className="d-flex justify-content-center my-4">
                 <Button variant="primary" className="view-all-button" onClick={handleViewAllClick}>
-                    {showAll ? 'Show Less' : 'View All'} {/* Toggle button text */}
+                    {showAll ? 'View Less' : 'View All'} {/* Toggle button text */}
                 </Button>
             </Container>
         </>

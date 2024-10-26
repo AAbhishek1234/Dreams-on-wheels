@@ -1,17 +1,17 @@
 /* Wrapper for the card image */
-.hyundai-card-img-wrapper {
+.volkswagen-card-img-wrapper {
     height: 200px; /* Fixed height for all screens */
     overflow: hidden;
 }
 
-.hyundai-card-img-wrapper img {
+.volkswagen-card-img-wrapper img {
     object-fit: cover;
     width: 100%;
     height: 100%;
 }
 
 /* Card styling */
-.hyundai-car-card {
+.volkswagen-car-card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -22,7 +22,7 @@
 }
 
 /* Card body styling */
-.hyundai-card-body {
+.volkswagen-card-body {
     flex-grow: 1;
     padding: 12px;
     display: flex;
