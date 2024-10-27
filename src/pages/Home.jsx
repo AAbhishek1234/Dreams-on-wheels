@@ -18,6 +18,7 @@ import HondaBike from '../components/bikes/HondaBike'
 import Bajaj from '../components/bikes/Bajaj'
 import Tvs from '../components/bikes/Tvs'
 import Suzuki from '../components/bikes/Suzuki'
+import Footer from '../components/Footer'
 function Home() {
   return (
     <>
@@ -39,6 +40,7 @@ function Home() {
  <Bajaj></Bajaj>
  <Tvs></Tvs>
  <Suzuki></Suzuki>
+ <Footer></Footer>
     </>
   )
 }
