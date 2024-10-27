@@ -1,6 +1,6 @@
 import { BrowserRouter as Router,Route,Routes } from "react-router-dom"
 import Home from './pages/Home'
-import Altruz from "./components/Altruz"
+import Altruz from "./pages/Altruz"
 function App() {
   return (
     <>
