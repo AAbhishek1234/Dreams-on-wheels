@@ -75,8 +75,8 @@ import './CarsMaruti.css';
 
 const CarsMaruti = () => {
     const cars = [
-        { name: 'Fronx', price: '₹13.62 - 17.42 Lakh', image: 'Images/fronx.avif', url: '/fronx' },
-        { name: 'Jimmy', price: '₹6.13 - 10.15 Lakh', image: 'Images/jimmy.webp', url: '/jimmy' },
+        { name: 'Fronx', price: '₹8.67 Lakh- 15.10 Lakh', image: 'Images/fronx.avif', url: '/fronx' },
+        { name: 'Jimmy', price: '₹12 Lakh - 15 Lakh', image: 'Images/jimmy.webp', url: '/jimmy' },
         { name: 'Celerio', price: '₹11.35 - 17.60 Lakh', image: 'Images/celerio.png', url: '/celerio' },
     ];
 
