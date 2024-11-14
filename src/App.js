@@ -5,6 +5,7 @@ import Xuv700 from "./pages/Xuv700"
 import Marzoo from "./pages/Marzoo"
 import Fronx from "./pages/Fronx"
 import Jimmy from "./pages/Jimmy"
+import Celerio from './pages/Celerio'
 function App() {
   return (
     <>
@@ -16,7 +17,7 @@ function App() {
 <Route path="/marzoo" element={<Marzoo/>}/>
 <Route path="/fronx" element={<Fronx/>}/>
 <Route path="/jimmy" element={<Jimmy/>}/>
-
+<Route path="/celerio" element={<Celerio/>}/>
 </Routes>
     </Router>
     </>
