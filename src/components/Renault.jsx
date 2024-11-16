@@ -5,9 +5,9 @@ import './Renault.css';
 
 const Kia = () => {
     const cars = [
-        { name: 'Renault Fluence', price: '₹13.62 - 17.42 Lakh', image: 'Images/fluence.png', url: '/fluence' },
-        { name: 'Renault Kiger', price: '₹11.35 - 17.60 Lakh', image: 'Images/kiger.jpg', url: '/kiger' },
-        { name: 'Renault Triber', price: '₹6.13 - 10.15 Lakh', image: 'Images/triber.jpg', url: '/triber' },
+        { name: 'Renault Fluence', price: '13.70Lakh*', image: 'Images/fluence.png', url: '/fluence' },
+        { name: 'Renault Kiger', price: '06.70 Lakh - 13.15 Lakh', image: 'Images/kiger.jpg', url: '/kiger' },
+        { name: 'Renault Triber', price: '06.00 Lakh - 09.00 Lakh', image: 'Images/triber.jpg', url: '/triber' },
     ];
 
     const navigate = useNavigate();

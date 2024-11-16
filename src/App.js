@@ -15,6 +15,21 @@ import Curvv from "./pages/Curvv"
 import CrossPolo from "./pages/CrossPolo"
 import Taigun from "./pages/Taigun"
 import VirtusGt from "./pages/VirtusGt"
+import KiaSeltos from "./pages/KiaSeltos"
+import KiaSorneto from './pages/KiaSorneto'
+import KiaEv9 from "./pages/KiaEv9"
+import MgComet from "./pages/MgComet"
+import MgWindsor from "./pages/MgWindsor"
+import MgHector from "./pages/MgHector"
+import Legender from "./pages/Legender"
+import Fortuner from './pages/Fortuner'
+import Glanza from './pages/Glanza'
+import HondaCity from "./pages/HondaCity"
+import HondaHrv from "./pages/HondaHrv"
+import Amaze from "./pages/Amaze"
+import RenaultFluence from "./pages/RenaultFluence"
+import RenaultKiger from "./pages/RenaultKiger"
+import RenaultTriber from "./pages/RenaultTriber"
 // import Navbar from './components/Navbar'
 function App() {
   return (
@@ -38,6 +53,21 @@ function App() {
 <Route path="/crosspolo" element={<CrossPolo/>}/>
 <Route path="/taigun" element={<Taigun/>}/>
 <Route path="/virtusgt" element={<VirtusGt/>}/>
+<Route path="/kiaseltos" element={<KiaSeltos/>}/>
+<Route path="/kiasorneto" element={<KiaSorneto/>}/>
+<Route path="/kiaev9" element={<KiaEv9/>}/>
+<Route path="/mgcomet" element={<MgComet/>}/>
+<Route path="/mgwindsor" element={<MgWindsor/>}/>
+<Route path="/mghector" element={<MgHector/>}/>
+<Route path="/legender" element={<Legender/>}/>
+<Route path="/fortuner" element={<Fortuner/>}/>
+<Route path="/glanza" element={<Glanza/>}/>
+<Route path="/hondacity" element={<HondaCity/>}/>
+<Route path="/hondahrv" element={<HondaHrv/>}/>
+<Route path="/amaze" element={<Amaze/>}/>
+<Route path="/fluence" element={<RenaultFluence/>}/>
+<Route path="/kiger" element={<RenaultKiger/>}/>
+<Route path="/triber" element={<RenaultTriber/>}/>
 </Routes>
     </Router>
     </>

@@ -1,0 +1,194 @@
+.car-details-container {
+    max-width: 100%;
+  }
+  
+  .car-card {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .car-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 0 0 8px;
+    margin-left: 5px !important;
+  }
+  
+  .car-info {
+    text-align: left;
+  }
+  
+  .car-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .rating {
+    color: #ff8c00; /* Orange color for rating stars */
+    font-weight: bold;
+  }
+  
+  .stars {
+    color: #ffcc00; /* Yellow stars */
+  }
+  
+  .car-description {
+    font-size: 0.9rem;
+    color: #6c757d; /* Gray color for text */
+    margin-bottom: 1rem;
+  }
+  
+  .price {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .on-road {
+    color: #007bff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .offer-button {
+    background-color:peru !important;
+    border: none !important;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .offer-button:hover {
+    background-color: #e64a19;
+  }
+  
+  @media (max-width: 768px) {
+    .car-info {
+      text-align: center;
+    }
+  
+    .car-title {
+      font-size: 1.5rem;
+    }
+  
+    .car-description {
+      font-size: 0.85rem;
+    }
+  
+    .price {
+      font-size: 1.1rem;
+    }
+  
+    .offer-button {
+      width: 100%;
+    }
+  }
+  
+
+  .spec-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  /* Specifications table */
+  .spec-table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures borders are collapsed */
+    margin-top: 20px;
+  }
+  
+  .spec-table th,
+  .spec-table td {
+    padding: 8px; /* Reduced padding */
+    text-align: left;
+    border: 1px solid #ddd; /* Adds a border just around the cell */
+  }
+  
+  .spec-table th {
+    background-color: #f4f4f4;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .spec-table td {
+    color: #555;
+  }
+  
+  /* Removes the horizontal line at the edges by making it visible only between cells */
+
+  
+  /* Adds hover effect for each row */
+  .spec-table tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .spec-table th, .spec-table td {
+      padding: 6px; /* Further reduced padding for smaller screens */
+    }
+  }
+  
+
+
+
+  /* General body styles */
+/* General body styles */
+body {
+    overflow-x: hidden; /* Prevent horizontal scrolling on the entire page */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Container styles */
+.car-details-container {
+    overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+/* Testimonial card styles */
+.testimonial-card {
+    margin: 5px !important; /* Default margin */
+    padding: 20px; /* Keep padding for card content */
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth transition */
+    width: 100%; /* Ensure full width */
+}
+
+/* Media Queries */
+@media (max-width: 768px) { /* Mobile devices */
+    .testimonial-card {
+        margin: 5px; /* Smaller margin for mobile */
+        padding: 15px; /* Adjust padding for mobile */
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) { /* Tablet devices */
+    .testimonial-card {
+        margin: 10px; /* Standard margin for tablet */
+        padding: 20px; /* Standard padding for tablet */
+    }
+}
+
+@media (min-width: 1025px) { /* Desktop devices */
+    .testimonial-card {
+        margin: 15px; /* Larger margin for desktop */
+        padding: 25px; /* Adjust padding for desktop */
+    }
+}
+.offer-button-custom {
+    background-color:  #ff3c00 !important; /* Set to your desired color */
+    color: white; /* Text color */
+    border: none !important;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  

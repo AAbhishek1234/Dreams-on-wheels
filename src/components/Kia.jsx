@@ -5,10 +5,9 @@ import './Kia.css';
 
 const Kia = () => {
     const cars = [
-        { name: 'Kia Seltos', price: '₹13.62 - 17.42 Lakh', image: 'Images/kiaseltos.jpg', url: '/kiaseltos' },
-        
-        { name: 'Kia Sorento', price: '₹11.35 - 17.60 Lakh', image: 'Images/kiasorento.jpg', url: '/kiasorneto' },
-        { name: 'Kia Ev9', price: '₹6.13 - 10.15 Lakh', image: 'Images/kiaev9.jpg', url: '/kiaev9' },
+        { name: 'Kia Seltos', price: '12.50 Lakh - 23.90 Lakh', image: 'Images/kiaseltos.jpg', url: '/kiaseltos' },
+        { name: 'Kia Sorento', price: '25 Lakh*', image: 'Images/kiasorento.jpg', url: '/kiasorneto' },
+        { name: 'Kia Ev9', price: '1.37 Crore', image: 'Images/kiaev9.jpg', url: '/kiaev9' },
     ];
 
     const navigate = useNavigate();

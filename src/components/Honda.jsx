@@ -3,12 +3,12 @@ import { Card, Container, Row, Col, Button } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom'; 
 import './Honda.css'; 
 
-const Kia = () => {
+const Honda = () => {
     const cars = [
-        { name: 'Honda City', price: '₹13.62 - 17.42 Lakh', image: 'Images/hondacity.webp', url: '/hondacity' },
+        { name: 'Honda City', price: '13.40 Lakh - 18.60 Lakh', image: 'Images/hondacity.webp', url: '/hondacity' },
         
-        { name: 'Honda HRV', price: '₹11.35 - 17.60 Lakh', image: 'Images/hondahrv.webp', url: '/hondahrv' },
-        { name: 'Honda Amaze', price: '₹6.13 - 10.15 Lakh', image: 'Images/amaze.jpg', url: '/amaze' },
+        { name: 'Honda HRV', price: '14 Lakh*', image: 'Images/hondahrv.webp', url: '/hondahrv' },
+        { name: 'Honda Amaze', price: '08.30 Lakh-11.31 Lakh', image: 'Images/amaze.jpg', url: '/amaze' },
     ];
 
     const navigate = useNavigate();
@@ -55,4 +55,4 @@ const Kia = () => {
     );
 };
 
-export default Kia;
+export default Honda;

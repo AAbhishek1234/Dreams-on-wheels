@@ -5,9 +5,9 @@ import './Mg.css';
 
 const Mg = () => {
     const cars = [
-        { name: 'MG Comet EV', price: '₹13.62 - 17.42 Lakh', image: 'Images/mgcomet.webp', url: '/mgcomet' },
-        { name: 'MG Windsor EV', price: '₹11.35 - 17.60 Lakh', image: 'Images/mgwindsor.webp', url: '/mgwindsor' },
-        { name: 'MG Hector', price: '₹6.13 - 10.15 Lakh', image: 'Images/mghector.jpg', url: '/mghector' },
+        { name: 'MG Comet EV', price: '07.40 Lakh - 11.00 Lakh', image: 'Images/mgcomet.webp', url: '/mgcomet' },
+        { name: 'MG Windsor EV', price: ' 15.70 Lakh - 18.10 Lakh', image: 'Images/mgwindsor.webp', url: '/mgwindsor' },
+        { name: 'MG Hector', price: '16.30 Lakh- 27.00 Lakh', image: 'Images/mghector.jpg', url: '/mghector' },
     ];
 
     const navigate = useNavigate();

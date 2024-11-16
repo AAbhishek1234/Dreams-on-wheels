@@ -5,9 +5,9 @@ import './CarsTata.css';
 
 const CarsHyundai = () => {
     const cars = [
-        { name: 'Tata Nexon', price: '₹9.22 Lakh - 18.40 Lakh', image: 'Images/nexon.webp', url: '/nexon' },
-        { name: 'Tata Altroz', price: '₹7.53 - 12.85 Lakh', image: 'Images/altroz.webp', url: '/altroz' },
-        { name: 'Tata Curvv', price: '₹11.59 - 22.45 Lakh', image: 'Images/curvv.jpg', url: '/curvv' },
+        { name: 'Tata Nexon', price: '9.22 Lakh - 18.40 Lakh', image: 'Images/nexon.webp', url: '/nexon' },
+        { name: 'Tata Altroz', price: '7.53 Lakh - 12.85 Lakh', image: 'Images/altroz.webp', url: '/altroz' },
+        { name: 'Tata Curvv', price: '11.59 Lakh- 22.45 Lakh', image: 'Images/curvv.jpg', url: '/curvv' },
     ];
 
     const navigate = useNavigate();

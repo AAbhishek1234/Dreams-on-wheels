@@ -5,9 +5,9 @@ import './Toyota.css';
 
 const Mg = () => {
     const cars = [
-        { name: 'Toyota Legender', price: '₹13.62 - 17.42 Lakh', image: 'Images/legender.webp', url: '/legender' },
-        { name: 'Toyota Fortuner', price: '₹6.13 - 10.15 Lakh', image: 'Images/fortuner.avif', url: '/landcruiser' },
-        { name: 'Toyota Glanza', price: '₹11.35 - 17.60 Lakh', image: 'Images/glanza.png', url: '/glanza' },
+        { name: 'Toyota Legender', price: '51.65 Lakh - 56.35 Lakh', image: 'Images/legender.webp', url: '/legender' },
+        { name: 'Toyota Fortuner', price: '33.00 Lakh- 51.00 Lakh', image: 'Images/fortuner.avif', url: '/fortuner' },
+        { name: 'Toyota Glanza', price: '06.80  Lakh- 10 Lakh*', image: 'Images/glanza.png', url: '/glanza' },
        
     ];
 

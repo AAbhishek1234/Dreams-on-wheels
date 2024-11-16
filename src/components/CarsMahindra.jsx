@@ -5,9 +5,9 @@ import './CarsMahindra.css';
 
 const CarsMahindra = () => {
     const cars = [
-        { name: 'Alturas G4', price: '₹8 Lakh- 15.50 Lakh', image: 'Images/alturas.jpeg', url: '/alturas' },
-        { name: 'XUV 700', price: '₹13 Lakh- 25.50 Lakh', image: 'Images/xuv700.webp', url: '/xuv700' },
-        { name: 'Marzoo', price: '₹10 Lakh- 17 Lakh', image: 'Images/marzoo.jpg', url: '/marzoo' },
+        { name: 'Alturas G4', price: '8 Lakh- 15.50 Lakh', image: 'Images/alturas.jpeg', url: '/alturas' },
+        { name: 'XUV 700', price: '13 Lakh- 25.50 Lakh', image: 'Images/xuv700.webp', url: '/xuv700' },
+        { name: 'Marzoo', price: '10 Lakh- 17 Lakh', image: 'Images/marzoo.jpg', url: '/marzoo' },
     ];
 
     const navigate = useNavigate();
