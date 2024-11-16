@@ -5,9 +5,9 @@ import './CarsHyundai.css';
 
 const CarsHyundai = () => {
     const cars = [
-        { name: 'Hyundai i20', price: '₹13.62 - 17.42 Lakh', image: 'Images/i20.png', url: '/i20' },
-        { name: 'Hyundai Aura', price: '₹6.13 - 10.15 Lakh', image: 'Images/aura.webp', url: '/aura' },
-        { name: 'Hyundai Creta', price: '₹11.35 - 17.60 Lakh', image: 'Images/creta.jpg', url: '/creta' },
+        { name: 'Hyundai i20', price: '₹07 Lakh - 11.20 Lakh', image: 'Images/i20.png', url: '/i20' },
+        { name: 'Hyundai Aura', price: '₹7.50 Lakh - 10.60 Lakh', image: 'Images/aura.webp', url: '/aura' },
+        { name: 'Hyundai Creta', price: '₹12.80 - 23.94 Lakh', image: 'Images/creta.jpg', url: '/creta' },
     ];
 
     const navigate = useNavigate();

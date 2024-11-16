@@ -5,9 +5,9 @@ import './CarsVolkswagen.css';
 
 const CarsVolkswagen = () => {
     const cars = [
-        { name: 'Volkswagen Cross Polo', price: '₹13.62 - 17.42 Lakh', image: 'Images/crosspolo.jpg', url: '/crosspolo' },
-        { name: 'Volkswagen Taigun', price: '₹6.13 - 10.15 Lakh', image: 'Images/taigun.jpg', url: '/taigun' },
-        { name: 'Volkswagen Virtus GT', price: '₹11.35 - 17.60 Lakh', image: 'Images/virtusgt.webp', url: '/virtusgt' },
+        { name: 'Volkswagen Cross Polo', price: '₹7.50 Lakh', image: 'Images/crosspolo.jpg', url: '/crosspolo' },
+        { name: 'Volkswagen Taigun', price: '₹13.55 Lakh - 23.60 Lakh', image: 'Images/taigun.jpg', url: '/taigun' },
+        { name: 'Volkswagen Virtus GT Line', price: '₹ 14.07 Lakh*', image: 'Images/virtusgt.webp', url: '/virtusgt' },
     ];
 
     const navigate = useNavigate();

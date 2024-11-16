@@ -1,4 +1,5 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
 import FirstSlider from '../components/FirstSlider'
 import CarsMahindra from '../components/CarsMahindra'
 import CarsMaruti from '../components/CarsMaruti'
@@ -22,6 +23,7 @@ import Footer from '../components/Footer'
 function Home() {
   return (
     <>
+    {/* <Navbar></Navbar> */}
    <FirstSlider/>
  <CarsMahindra/> 
  <CarsMaruti/>   
