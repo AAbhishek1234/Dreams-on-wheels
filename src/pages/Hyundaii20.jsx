@@ -122,7 +122,7 @@ Metallic Blue )</td>
             <Card.Body>
               <Card.Title>John Doe</Card.Title>
               <Card.Text>
-                "The Mahindra car is a fantastic. The ride is smooth and the interior."
+                "The Hyundai car is a fantastic. The ride is smooth and the interior."
               </Card.Text>
               <p className="stars">★★★★★</p>
             </Card.Body>
@@ -146,7 +146,7 @@ Metallic Blue )</td>
             <Card.Body>
               <Card.Title>Alex Johnson</Card.Title>
               <Card.Text>
-                "The performance is outstanding. It's a powerful Xuv with great mileage."
+                "The performance is outstanding. It's a powerful hyundai with great mileage."
               </Card.Text>
               <p className="stars">★★★★★</p>
             </Card.Body>
@@ -159,14 +159,14 @@ Metallic Blue )</td>
          <Col sm={12} md={6} lg={4}>
           <Card className="shadow-sm" style={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
              <Card.Img 
-               src="Images/boleroneo.webp" 
+               src="Images/amaze.jpg" 
              alt="Bolero N" 
                style={{ height: '200px', objectFit: 'cover' }} 
              />
              <Card.Body className="d-flex flex-column">
-               <Card.Title>Bolero N</Card.Title>
-               <Card.Text className="price">₹ 10 - 12 Lakh</Card.Text>
-               <Button className="offer-button-custom" onClick={() => handleNavigate('/bolero-n')}>View Details</Button>
+               <Card.Title>Honda Amaze</Card.Title>
+               <Card.Text className="price">8.50 Lakh -11.31Lakh</Card.Text>
+               <Button className="offer-button-custom" onClick={() => handleNavigate('/amaze')}>View Details</Button>
              </Card.Body>
            </Card>
          </Col>
@@ -175,14 +175,14 @@ Metallic Blue )</td>
          <Col sm={12} md={6} lg={4}>
            <Card className="shadow-sm" style={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
              <Card.Img 
-               src="Images/xuv 3xo.webp" 
+               src="Images/fronx.avif" 
                alt="Xuv 3xo" 
               style={{ height: '200px', objectFit: 'cover' }}
              />
              <Card.Body className="d-flex flex-column">
-               <Card.Title>Xuv 3xo</Card.Title>
-               <Card.Text className="price">₹ 12 - 15 Lakh</Card.Text>
-               <Button className="offer-button-custom" onClick={() => handleNavigate('/xuv-3xo')}>View Details</Button>
+               <Card.Title>Fronx </Card.Title>
+               <Card.Text className="price">08.67 Lakh - 15.10Lakh</Card.Text>
+               <Button className="offer-button-custom" onClick={() => handleNavigate('/fronx')}>View Details</Button>
              </Card.Body>
            </Card>
          </Col>
@@ -191,14 +191,14 @@ Metallic Blue )</td>
          <Col sm={12} md={6} lg={4}>
            <Card className="shadow-sm" style={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
              <Card.Img 
-               src="Images/xuv700.webp" 
+               src="Images/nexon.webp" 
                alt="Xuv 700" 
                style={{ height: '200px', objectFit: 'cover' }}
              />
              <Card.Body className="d-flex flex-column">
-               <Card.Title>Xuv 700</Card.Title>
-               <Card.Text className="price">₹ 15 - 20 Lakh</Card.Text>
-               <Button className="offer-button-custom" onClick={() => handleNavigate('/xuv700')}>View Details</Button>
+               <Card.Title>Tata Nexon</Card.Title>
+               <Card.Text className="price">09.22 Lakh-18.40 Lakh</Card.Text>
+               <Button className="offer-button-custom" onClick={() => handleNavigate('/nexon')}>View Details</Button>
              </Card.Body>
            </Card>
          </Col>

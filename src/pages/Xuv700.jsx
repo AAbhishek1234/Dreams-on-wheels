@@ -154,14 +154,14 @@ Electric Blue)</td>
          <Col sm={12} md={6} lg={4}>
           <Card className="shadow-sm" style={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
              <Card.Img 
-               src="Images/boleroneo.webp" 
+               src="Images/creta.jpg" 
              alt="Bolero N" 
                style={{ height: '200px', objectFit: 'cover' }} 
              />
              <Card.Body className="d-flex flex-column">
-               <Card.Title>Bolero N</Card.Title>
-               <Card.Text className="price">₹ 10 - 12 Lakh</Card.Text>
-               <Button className="offer-button-custom" onClick={() => handleNavigate('/bolero-n')}>View Details</Button>
+               <Card.Title>Hyundai Creta</Card.Title>
+               <Card.Text className="price">12.90Lakh-23.94Lakh</Card.Text>
+               <Button className="offer-button-custom" onClick={() => handleNavigate('/creta')}>View Details</Button>
              </Card.Body>
            </Card>
          </Col>
@@ -170,14 +170,14 @@ Electric Blue)</td>
          <Col sm={12} md={6} lg={4}>
            <Card className="shadow-sm" style={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
              <Card.Img 
-               src="Images/xuv 3xo.webp" 
+               src="Images/curvv.jpg" 
                alt="Xuv 3xo" 
               style={{ height: '200px', objectFit: 'cover' }}
              />
              <Card.Body className="d-flex flex-column">
-               <Card.Title>Xuv 3xo</Card.Title>
-               <Card.Text className="price">₹ 12 - 15 Lakh</Card.Text>
-               <Button className="offer-button-custom" onClick={() => handleNavigate('/xuv-3xo')}>View Details</Button>
+               <Card.Title>Tata Curvv</Card.Title>
+               <Card.Text className="price">11.59 Lakh - 22.45 Lakh</Card.Text>
+               <Button className="offer-button-custom" onClick={() => handleNavigate('/curvv')}>View Details</Button>
              </Card.Body>
            </Card>
          </Col>
@@ -186,14 +186,14 @@ Electric Blue)</td>
          <Col sm={12} md={6} lg={4}>
            <Card className="shadow-sm" style={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
              <Card.Img 
-               src="Images/xuv700.webp" 
+               src="Images/taigun.jpg" 
                alt="Xuv 700" 
                style={{ height: '200px', objectFit: 'cover' }}
              />
              <Card.Body className="d-flex flex-column">
-               <Card.Title>Xuv 700</Card.Title>
-               <Card.Text className="price">₹ 15 - 20 Lakh</Card.Text>
-               <Button className="offer-button-custom" onClick={() => handleNavigate('/xuv700')}>View Details</Button>
+               <Card.Title>Volkswagen Taigun</Card.Title>
+               <Card.Text className="price">13.55 Lakh - 23.60 Lakh</Card.Text>
+               <Button className="offer-button-custom" onClick={() => handleNavigate('/taigun')}>View Details</Button>
              </Card.Body>
            </Card>
          </Col>

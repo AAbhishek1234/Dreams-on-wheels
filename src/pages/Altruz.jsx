@@ -144,14 +144,14 @@ const Altruz = () => {
          <Col sm={12} md={6} lg={4}>
           <Card className="shadow-sm" style={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
              <Card.Img 
-               src="Images/boleroneo.webp" 
+               src="Images/fronx.avif" 
              alt="Bolero N" 
                style={{ height: '200px', objectFit: 'cover' }} 
              />
              <Card.Body className="d-flex flex-column">
-               <Card.Title>Bolero N</Card.Title>
-               <Card.Text className="price">₹ 10 - 12 Lakh</Card.Text>
-               <Button className="offer-button-custom" onClick={() => handleNavigate('/bolero-n')}>View Details</Button>
+               <Card.Title>Fronx</Card.Title>
+               <Card.Text className="price">08.67 Lakh-15.10 Lakh</Card.Text>
+               <Button className="offer-button-custom" onClick={() => handleNavigate('/fronx')}>View Details</Button>
              </Card.Body>
            </Card>
          </Col>
@@ -160,14 +160,14 @@ const Altruz = () => {
          <Col sm={12} md={6} lg={4}>
            <Card className="shadow-sm" style={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
              <Card.Img 
-               src="Images/xuv 3xo.webp" 
+               src="Images/i20.png" 
                alt="Xuv 3xo" 
               style={{ height: '200px', objectFit: 'cover' }}
              />
              <Card.Body className="d-flex flex-column">
-               <Card.Title>Xuv 3xo</Card.Title>
-               <Card.Text className="price">₹ 12 - 15 Lakh</Card.Text>
-               <Button className="offer-button-custom" onClick={() => handleNavigate('/xuv-3xo')}>View Details</Button>
+               <Card.Title>Hyundai i20</Card.Title>
+               <Card.Text className="price">07.00 Lakh- 11.20 Lakh</Card.Text>
+               <Button className="offer-button-custom" onClick={() => handleNavigate('/i20')}>View Details</Button>
              </Card.Body>
            </Card>
          </Col>
@@ -182,7 +182,7 @@ const Altruz = () => {
              />
              <Card.Body className="d-flex flex-column">
                <Card.Title>Xuv 700</Card.Title>
-               <Card.Text className="price">₹ 15 - 20 Lakh</Card.Text>
+               <Card.Text className="price">15 Lakh - 20 Lakh</Card.Text>
                <Button className="offer-button-custom" onClick={() => handleNavigate('/xuv700')}>View Details</Button>
              </Card.Body>
            </Card>

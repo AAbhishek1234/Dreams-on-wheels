@@ -186,14 +186,14 @@ Mariner Maroon)</td>
          <Col sm={12} md={6} lg={4}>
            <Card className="shadow-sm" style={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
              <Card.Img 
-               src="Images/xuv700.webp" 
+               src="Images/virtusgt.webp" 
                alt="Xuv 700" 
                style={{ height: '200px', objectFit: 'cover' }}
              />
              <Card.Body className="d-flex flex-column">
-               <Card.Title>Xuv 700</Card.Title>
-               <Card.Text className="price">₹ 15 - 20 Lakh</Card.Text>
-               <Button className="offer-button-custom" onClick={() => handleNavigate('/xuv700')}>View Details</Button>
+               <Card.Title>Volkswagen virtus Gt Line</Card.Title>
+               <Card.Text className="price">14 Lakh*</Card.Text>
+               <Button className="offer-button-custom" onClick={() => handleNavigate('/virtusgt')}>View Details</Button>
              </Card.Body>
            </Card>
          </Col>
