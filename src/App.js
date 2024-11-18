@@ -30,6 +30,16 @@ import Amaze from "./pages/Amaze"
 import RenaultFluence from "./pages/RenaultFluence"
 import RenaultKiger from "./pages/RenaultKiger"
 import RenaultTriber from "./pages/RenaultTriber"
+import AllHyundaiCars from "./components/AllHyundaiCars"
+import AllMahindra from './components/AllMahindra'
+import AllMaruti from "./components/AllMaruti"
+import AllTata from "./components/AllTata"
+import AllVolkawagen from "./components/AllVolkawagen"
+import AllKia from "./components/AllKia"
+import AllMg from "./components/AllMg"
+import AllToyota from "./components/AllToyota"
+import AllHondaCar from "./components/AllHondaCar"
+import AllRenaultCar from "./components/AllRenaultCar"
 // import Navbar from './components/Navbar'
 function App() {
   return (
@@ -68,6 +78,16 @@ function App() {
 <Route path="/fluence" element={<RenaultFluence/>}/>
 <Route path="/kiger" element={<RenaultKiger/>}/>
 <Route path="/triber" element={<RenaultTriber/>}/>
+<Route path="/all-hyundai-cars" element={<AllHyundaiCars/>}/>
+<Route path="/all-mahindra-cars" element={<AllMahindra/>}/>
+<Route path="/all-maruti-cars" element={<AllMaruti/>}/>
+<Route path='/all-tata-cars' element={<AllTata/>}/>
+<Route path="/all-volkswagen-cars"element={<AllVolkawagen/>}/>
+<Route path="/all-kia-cars" element={<AllKia/>}/>
+<Route path="/all-mg-cars" element={<AllMg/>}/>
+<Route path="/all-toyota-cars" element={<AllToyota/>}/>
+<Route path="/all-honda-cars" element={<AllHondaCar/>}/>
+<Route path="/all-renault-cars" element={<AllRenaultCar/>}/>
 </Routes>
     </Router>
     </>

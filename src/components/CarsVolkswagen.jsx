@@ -17,7 +17,7 @@ const CarsVolkswagen = () => {
     };
 
     const handleViewAllClick = () => {
-        navigate('/all-kia-cars'); // Adjust this route to your "View All" page
+        navigate('/all-volkswagen-cars'); // Adjust this route to your "View All" page
     };
 
     return (

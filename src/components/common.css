@@ -1,0 +1,71 @@
+/* Wrapper for the component */
+.all-hyundai-cars {
+  margin-top: 20px;
+}
+
+/* Card size and styling */
+.all-hyundai-cars .card {
+  margin: 10px auto; /* Center the card */
+  font-size: 0.85rem; /* Adjust font size */
+  border-radius: 10px; /* Optional: rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect for the card */
+.all-hyundai-cars .card:hover {
+  transform: scale(1.05); /* Slightly increase card size on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+}
+
+/* Card image styling */
+.all-hyundai-cars .card-img-top {
+  max-height: 200px; /* Ensure image fits within this height */
+  width: 100%; /* Full width of the card */
+  object-fit: cover; /* Prevent image distortion */
+  border-top-left-radius: 10px; /* Rounded top-left corners */
+  border-top-right-radius: 10px; /* Rounded top-right corners */
+}
+
+/* Card title (name) styling */
+.all-hyundai-cars .card-title {
+  font-size: 1rem; /* Adjust title font size */
+  font-weight: bold; /* Bold title */
+  text-align: center; /* Center align the title */
+  margin-top: 10px; /* Space between image and title */
+  white-space: nowrap; /* Prevent title from wrapping */
+  overflow: hidden; /* Hide overflow text */
+  text-overflow: ellipsis; /* Add ellipsis for long names */
+}
+
+/* Card text (price) styling */
+.all-hyundai-cars .card-text {
+  font-size: 0.9rem; /* Adjust font size for price */
+  color: #555; /* Lighter color for price */
+  text-align: center; /* Center align the price */
+  margin-top: 5px; 
+  font-weight: bold;/* Add space between title and price */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .all-hyundai-cars .card {
+    width: 100%; /* Full width on mobile */
+    height: auto; /* Allow auto height */
+    font-size: 0.85rem; /* Adjust font size */
+  }
+
+  .all-hyundai-cars .card-img-top {
+    max-height: 150px; /* Adjust image height on mobile */
+  }
+
+  .all-hyundai-cars .card-title {
+    font-size: 0.9rem;
+    font-weight: bold; /* Smaller font size for title */
+  }
+
+  .all-hyundai-cars .card-text {
+    font-size: 0.8rem;
+    font-weight: bold; /* Smaller font size for price */
+  }
+}
