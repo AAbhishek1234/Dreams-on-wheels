@@ -11,13 +11,13 @@ const AllKia = () => {
     { id: 1, name: "Kia Seltos", image: "/Images/kiaseltos.jpg", price: "12.50 Lakh-23.90 Lakh", url: "/kiaseltos" },
     { id: 2, name: "Kia Sorento", image: "/Images/kiasorento.jpg", price: "25Lakh*", url: "/kiasorento" },
     { id: 3, name: "Kia Ev9", image: "/Images/kiaev9.jpg", price: "1.37cr", url: "/kiaev9" },
-    { id: 4, name: "Kia Verna", image: "https://via.placeholder.com/150", price: "$400", url: "/product/400" },
-    { id: 5, name: "Kia Tucson", image: "https://via.placeholder.com/150", price: "$500", url: "/product/500" },
-    { id: 6, name: "Kia Alcazar", image: "https://via.placeholder.com/150", price: "$600", url: "/product/600" },
-    { id: 7, name: "Kia Aura", image: "https://via.placeholder.com/150", price: "$700", url: "/product/700" },
-    { id: 8, name: "Kia Santro", image: "https://via.placeholder.com/150", price: "$800", url: "/product/800" },
-    { id: 9, name: "Kia Elantra", image: "https://via.placeholder.com/150", price: "$900", url: "/product/900" },
-    { id: 10, name: "Kia Kona", image: "https://via.placeholder.com/150", price: "$1000", url: "/product/1000" },
+    { id: 4, name: "Kia Picanto ", image: "https://via.placeholder.com/150", price: "$400", url: "/Picanto " },
+    { id: 5, name: "Kia Cadenza ", image: "https://via.placeholder.com/150", price: "$500", url: "/Cadenza " },
+    { id: 6, name: "Kia Stinger", image: "https://via.placeholder.com/150", price: "$600", url: "/Stinger" },
+    { id: 7, name: "Kia Sportage", image: "https://via.placeholder.com/150", price: "$700", url: "/ Sportage" },
+    { id: 8, name: "Kia  Telluride", image: "https://via.placeholder.com/150", price: "$800", url: "/ Telluride" },
+    { id: 9, name: "Kia Carens", image: "https://via.placeholder.com/150", price: "$900", url: "/Carens" },
+    { id: 10, name: "Kia  Niro EV", image: "https://via.placeholder.com/150", price: "$1000", url: "/ Niro EV" },
   ];
 
   const handleCardClick = (url) => {

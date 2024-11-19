@@ -11,13 +11,13 @@ const AllHondaCar = () => {
     { id: 1, name: "Honda City", image: "/Images/hondacity.webp", price: "13.40 Lakh-18.60 Lakh", url: "/hondacity" },
     { id: 2, name: "Honda HRV", image: "/Images/hondahrv.webp", price: "14 Lakh*", url: "/hondahrv" },
     { id: 3, name: "Honda Amaze", image: "/Images/amaze.jpg", price: "08.3- Lakh-11.31 Lakh", url: "/amaze" },
-    { id: 4, name: "Honda ", image: "https://via.placeholder.com/150", price: "$400", url: "/product/400" },
-    { id: 5, name: "Honda Tucson", image: "https://via.placeholder.com/150", price: "$500", url: "/product/500" },
-    { id: 6, name: "Honda Alcazar", image: "https://via.placeholder.com/150", price: "$600", url: "/product/600" },
-    { id: 7, name: "Honda Aura", image: "https://via.placeholder.com/150", price: "$700", url: "/product/700" },
-    { id: 8, name: "Honda Santro", image: "https://via.placeholder.com/150", price: "$800", url: "/product/800" },
-    { id: 9, name: "Honda Elantra", image: "https://via.placeholder.com/150", price: "$900", url: "/product/900" },
-    { id: 10, name: "Honda Kona", image: "https://via.placeholder.com/150", price: "$1000", url: "/product/1000" },
+    { id: 4, name: "Honda  WR-V ", image: "https://via.placeholder.com/150", price: "$400", url: "/ WR-V " },
+    { id: 5, name: "Honda Jazz ", image: "https://via.placeholder.com/150", price: "$500", url: "/Jazz " },
+    { id: 6, name: "Honda Elevate", image: "https://via.placeholder.com/150", price: "$600", url: "/Elevate" },
+    { id: 7, name: "Honda Insight", image: "https://via.placeholder.com/150", price: "$700", url: "/Insight" },
+    { id: 8, name: "Honda Odyssey", image: "https://via.placeholder.com/150", price: "$800", url: "/Odyssey" },
+    { id: 9, name: "Honda Accord", image: "https://via.placeholder.com/150", price: "$900", url: "/Accord" },
+    { id: 10, name: "Honda Civic", image: "https://via.placeholder.com/150", price: "$1000", url: "/Civic" },
   ];
 
   const handleCardClick = (url) => {

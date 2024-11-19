@@ -11,13 +11,13 @@ const AllMg = () => {
     { id: 1, name: "MG Comet Ev", image: "/Images/mgcomet.webp", price: "07.40 Lakh- 11.00 Lakh", url: "/mgcomet" },
     { id: 3, name: "MG Windsor Ev", image: "/Images/mgwindsor.webp", price: "15.70 Lakh-18.10 Lakh", url: "/mgwindsor" },
     { id: 4, name: "MG Hector", image: "/Images/mghector.jpg", price: "16.30Lakh-27.00 Lakh", url: "/mghector" },
-    { id: 5, name: "MG Tucson", image: "/Images/tucson.avif", price: "$500", url: "/product/500" },
-    { id: 6, name: "MG Alcazar", image: "/Images/alcazar.webp", price: "$600", url: "/product/600" },
-    { id: 7, name: "MG Aura", image: "/Images/aura.webp", price: "7.50 Lakh-10.60 Lakh", url: "/aura" },
-    { id: 8, name: "MG Santro", image: "/Images/santro.jpg", price: "$800", url: "/product/800" },
-    { id: 9, name: "MG Elantra", image: "/Images/elantra.jpg", price: "$900", url: "/product/900" },
-    { id: 10, name: "MG Kona", image: "/Images/kona.jpeg", price: "$1000", url: "/product/1000" },
-    { id: 2, name: "MG Venue", image: "/Images/venue.webp", price: "$200", url: "/product/200" },
+    { id: 5, name: "MG Astor", image: "/Images/tucson.avif", price: "$500", url: "/Astor" },
+    { id: 6, name: "MG ZS EV", image: "/Images/alcazar.webp", price: "$600", url: "/ZS EV" },
+    { id: 7, name: "MG  Gloster", image: "/Images/aura.webp", price: "7.50 Lakh-10.60 Lakh", url: "/ Gloster" },
+    { id: 8, name: "MG RX5", image: "/Images/santro.jpg", price: "$800", url: "/RX5" },
+    { id: 9, name: "MG Marvel R", image: "/Images/elantra.jpg", price: "$900", url: "/Marvel R" },
+    { id: 10, name: "MG  HS", image: "/Images/kona.jpeg", price: "$1000", url: "/ HS" },
+    { id: 2, name: "MG Cyberster", image: "/Images/venue.webp", price: "$200", url: "/Cyberster" },
   ];
 
   const handleCardClick = (url) => {

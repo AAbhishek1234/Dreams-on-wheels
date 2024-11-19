@@ -11,13 +11,13 @@ const AllRenaultCar = () => {
     { id: 1, name: "Renault Fluence", image: "/Images/fluence.png", price: "13.70 Lakh", url: "/fluence" },
     { id: 2, name: "Renault Kiger", image: "/Images/kiger.jpg", price: "06.70 Lakh-13.15 Lakh", url: "/kiger" },
     { id: 3, name: "Renault Triber", image: "/Images/triber.jpg", price: "06.00 Lakh-09.00 Lakh", url: "/triber" },
-    { id: 4, name: "Renault Verna", image: "https://via.placeholder.com/150", price: "$400", url: "/product/400" },
-    { id: 5, name: "Renault Tucson", image: "https://via.placeholder.com/150", price: "$500", url: "/product/500" },
-    { id: 6, name: "Renault Alcazar", image: "https://via.placeholder.com/150", price: "$600", url: "/product/600" },
-    { id: 7, name: "Renault Aura", image: "https://via.placeholder.com/150", price: "$700", url: "/product/700" },
-    { id: 8, name: "Renault Santro", image: "https://via.placeholder.com/150", price: "$800", url: "/product/800" },
+    { id: 4, name: "Renault Duster", image: "https://via.placeholder.com/150", price: "$400", url: "/Duster" },
+    { id: 5, name: "Renault Clio", image: "https://via.placeholder.com/150", price: "$500", url: "/Clio" },
+    { id: 6, name: "Renault Captur", image: "https://via.placeholder.com/150", price: "$600", url: "/Captur" },
+    { id: 7, name: "Renault  Arkana", image: "https://via.placeholder.com/150", price: "$700", url: "/ Arkana" },
+    { id: 8, name: "Renault  Austral", image: "https://via.placeholder.com/150", price: "$800", url: "/  Austral" },
     { id: 9, name: "Renault Elantra", image: "https://via.placeholder.com/150", price: "$900", url: "/product/900" },
-    { id: 10, name: "Renault Kona", image: "https://via.placeholder.com/150", price: "$1000", url: "/product/1000" },
+    { id: 10, name: "Renault Kadjar", image: "https://via.placeholder.com/150", price: "$1000", url: "/Kadjar" },
   ];
 
   const handleCardClick = (url) => {

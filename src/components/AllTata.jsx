@@ -8,16 +8,17 @@ const AllTata = () => {
   const navigate = useNavigate();
 
   const cards = [
-    { id: 1, name: "Hyundai Creta", image: "/Images/creta.jpg", price: "12.80 Lakh- 23.94 Lakh", url: "/creta" },
-    { id: 3, name: "Hyundai i20", image: "/Images/i20.png", price: "07 Lakh-11.20 Lakh", url: "/i20" },
-    { id: 4, name: "Hyundai Verna", image: "/Images/verna.png", price: "$400", url: "/product/400" },
-    { id: 5, name: "Hyundai Tucson", image: "/Images/tucson.avif", price: "$500", url: "/product/500" },
-    { id: 6, name: "Hyundai Alcazar", image: "/Images/alcazar.webp", price: "$600", url: "/product/600" },
-    { id: 7, name: "Hyundai Aura", image: "/Images/aura.webp", price: "7.50 Lakh-10.60 Lakh", url: "/aura" },
-    { id: 8, name: "Hyundai Santro", image: "/Images/santro.jpg", price: "$800", url: "/product/800" },
-    { id: 9, name: "Hyundai Elantra", image: "/Images/elantra.jpg", price: "$900", url: "/product/900" },
-    { id: 10, name: "Hyundai Kona", image: "/Images/kona.jpeg", price: "$1000", url: "/product/1000" },
-    { id: 2, name: "Hyundai Venue", image: "/Images/venue.webp", price: "$200", url: "/product/200" },
+    { id: 1, name: "Tata Nexon", image: "/Images/nexon.webp", price: "09.22 Lakh- 18.40 Lakh", url: "/nexon" },
+
+    { id: 4, name: "Tata Curvv", image: "/Images/curvv.jpg", price: "11.59 Lakh-22.45 Lakh", url: "/curvv" },
+    { id: 5, name: "Tata  Tigor", image: "/Images/tucson.avif", price: "$500", url: "/Tigor" },
+    { id: 6, name: "Tata  Punch", image: "/Images/alcazar.webp", price: "$600", url: "/Punch" },
+    { id: 7, name: "Tata Safari", image: "/Images/aura.webp", price: "7.50 Lakh-10.60 Lakh", url: "Safari" },
+    { id: 8, name: "Tata Harrier", image: "/Images/santro.jpg", price: "$800", url: "/Harrier" },
+    { id: 9, name: "Tata  Tiago", image: "/Images/elantra.jpg", price: "$900", url: "/ Tiago" },
+    { id: 10, name: "Tata Nano", image: "/Images/kona.jpeg", price: "$1000", url: "/Nano" },
+    { id: 2, name: "Tata Indigo", image: "/Images/venue.webp", price: "$200", url: "/Indigo" },
+    { id: 3, name: "Tata Altroz", image: "/Images/altroz.webp", price: "07.53 Lakh-12.85 Lakh", url: "/altroz" },
   ];
 
   const handleCardClick = (url) => {

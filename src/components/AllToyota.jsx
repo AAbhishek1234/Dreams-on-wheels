@@ -11,13 +11,13 @@ const AllToyota = () => {
     { id: 1, name: "Toyota Legender", image: "/Images/legender.webp", price: "51.65 Lakh-56.35 Lakh", url: "/legender" },
     { id: 2, name: "Toyota Fortuner", image: "/Images/fortuner.avif", price: "33.00 Lakh-51.00 Lakh", url: "/fortuner" },
     { id: 3, name: "Toyota Glanza", image: "/Images/glanza.png", price: "06.80 Lakh-10 Lakh*", url: "/glanza" },
-    { id: 4, name: "Toyota Verna", image: "https://via.placeholder.com/150", price: "$400", url: "/product/400" },
-    { id: 5, name: "Toyota Tucson", image: "https://via.placeholder.com/150", price: "$500", url: "/product/500" },
-    { id: 6, name: "Toyota Alcazar", image: "https://via.placeholder.com/150", price: "$600", url: "/product/600" },
-    { id: 7, name: "Toyota Aura", image: "https://via.placeholder.com/150", price: "$700", url: "/product/700" },
-    { id: 8, name: "Toyota Santro", image: "https://via.placeholder.com/150", price: "$800", url: "/product/800" },
-    { id: 9, name: "Toyota Elantra", image: "https://via.placeholder.com/150", price: "$900", url: "/product/900" },
-    { id: 10, name: "Toyota Kona", image: "https://via.placeholder.com/150", price: "$1000", url: "/product/1000" },
+    { id: 4, name: "Toyota Vellfire", image: "https://via.placeholder.com/150", price: "$400", url: "/Vellfire" },
+    { id: 5, name: "Toyota  Rumion", image: "https://via.placeholder.com/150", price: "$500", url: "/ Rumion" },
+    { id: 6, name: "Toyota  RAV4", image: "https://via.placeholder.com/150", price: "$600", url: "/ RAV4" },
+    { id: 7, name: "Toyota GR Yaris", image: "https://via.placeholder.com/150", price: "$700", url: "/GR Yaris" },
+    { id: 8, name: "Toyota Highlander", image: "https://via.placeholder.com/150", price: "$800", url: "/Highlander" },
+    { id: 9, name: "Toyota Sequoia", image: "https://via.placeholder.com/150", price: "$900", url: "/Sequoia" },
+    { id: 10, name: "Toyota  Corolla Cross ", image: "https://via.placeholder.com/150", price: "$1000", url: "/ Corolla Cross " },
   ];
 
   const handleCardClick = (url) => {
